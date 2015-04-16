@@ -37,6 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    bcrypt-ruby (3.1.2)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (2.3.2.0)
@@ -232,6 +233,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (~> 4.2.1)
+  bcrypt-ruby (= 3.1.2)
   bootstrap-sass (= 2.3.2.0)
   byebug
   capybara (= 2.1.0)
@@ -243,9 +246,11 @@ DEPENDENCIES
   guard-spork (= 1.5.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest
   pg (= 0.15.1)
   rails (= 4.2.1)
   rails_12factor (= 0.0.2)
+  rspec
   rspec-rails (= 2.13.1)
   sass-rails (~> 5.0)
   sdoc (= 0.3.20)

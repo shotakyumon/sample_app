@@ -34,6 +34,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.12.3'
 
+gem 'rspec'
+gem 'activesupport', '~>4.2.1', require: 'active_support'
+
+gem 'bcrypt-ruby', '3.1.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -50,6 +55,7 @@ group :development, :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.5.5'
+  gem 'minitest'
 end
 
 group :test do
