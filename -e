@@ -1,4 +1,4 @@
-Exception encountered: #<LoadError: cannot load such file -- /Users/ShotaKyumon/projects/railstest/rails_projects/sample_app/signup with valid information>
+Exception encountered: #<LoadError: cannot load such file -- /Users/ShotaKyumon/projects/railstest/rails_projects/sample_app/signin with invalid information>
 backtrace:
 /Library/Ruby/Gems/2.0.0/gems/activesupport-4.2.1/lib/active_support/dependencies.rb:268:in `load'
 /Library/Ruby/Gems/2.0.0/gems/activesupport-4.2.1/lib/active_support/dependencies.rb:268:in `block in load'
