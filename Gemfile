@@ -39,6 +39,11 @@ gem 'activesupport', '~>4.2.1', require: 'active_support'
 
 gem 'bcrypt-ruby', '3.1.2'
 
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -49,13 +54,13 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'sqlite3', '1.3.8'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '2.14.0'
   gem 'guard', '2.6.1'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.5.5'
-  gem 'minitest'
+  gem 'minitest', '5.5.1'
 end
 
 group :test do
@@ -63,6 +68,7 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'database_cleaner'
 end
 
 group :doc do
